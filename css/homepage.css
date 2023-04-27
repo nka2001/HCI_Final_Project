@@ -1,0 +1,97 @@
+.grid-container {
+	display: grid;
+	grid-template-columns: 1fr 24fr 2fr;
+}
+
+#arrow-Button:active {
+
+  background-color: transparent;
+  transform: translateY(4px);
+}
+
+#arrow-Button{
+  background: transparent;
+  border: none;
+  width: 2vw; 
+}
+
+.loginButton {
+	text-align: center;
+
+	
+}
+
+marquee{
+	behavior: scroll;
+	direction: right;
+}
+
+img{
+	length: 50px;
+	width: 50px;
+}
+
+.imgRout{
+	padding-top: 150px;
+	length: 75px;
+	width: 75px;
+}
+
+.imgRout2{
+	padding-top: 210px;
+	length: 75px;
+	width: 75px;
+}
+
+.imgGuy{
+	length: 400px;
+	width: 400px;
+}
+
+button{
+	font-size: 18px;
+	padding: 15px 25px;
+}
+h1 {
+	text-align: center;
+	
+}
+.title {
+	font-size: 40px;
+
+}
+
+.grid-container-info{
+	padding-left:350px;
+	display: grid;
+	grid-template-columns: 0.5fr 0.2fr;
+}
+
+p{
+	font-size: 16px;	
+}
+
+.grid-container-arrow{
+	padding-left: 600px;
+	text-align: center;
+	display: grid;
+	grid-template-columns: 0.15fr 0.15fr;
+}
+
+.imgArrow{ 
+	length: 75px;
+	width: 75px;
+}
+
+.line{
+	height: 1px;
+	border: 0;
+	color: black;
+}
+
+.footer{
+	display: grid;
+	grid-template-columns: 1fr 1fr 1fr;
+	gap: 40px;
+	justify-items: center;
+}
