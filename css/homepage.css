@@ -3,6 +3,17 @@
 	grid-template-columns: 1fr 24fr 2fr;
 }
 
+#arrow-Button:active {
+
+  background-color: transparent;
+  transform: translateY(4px);
+}
+
+#arrow-Button{
+  background: transparent;
+  border: none;
+  width: 2vw; 
+}
 .loginButton {
 	text-align: center;
 
