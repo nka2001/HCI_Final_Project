@@ -3,13 +3,26 @@
 	grid-template-columns: 1fr 24fr 2fr;
 }
 
-#arrow-Button:active {
+#leftarrow-Button:active {
 
   background-color: transparent;
   transform: translateY(4px);
 }
 
-#arrow-Button{
+
+#rightarrow-Button:active {
+
+  background-color: transparent;
+  transform: translateY(4px);
+}
+
+#leftarrow-Button{
+  background: transparent;
+  border: none;
+  width: 2vw; 
+}
+
+#rightarrow-Button{
   background: transparent;
   border: none;
   width: 2vw; 
