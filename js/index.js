@@ -77,3 +77,9 @@ leftButton.onclick = function () {
 
 
 }
+
+var loginButton = document.getElementById("Login");
+loginButton.onclick = function () {
+    window.location.href = "/html/login.html";
+    confirm("You are now going to the login view");
+};

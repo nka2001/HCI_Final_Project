@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="../css/tutorform.css">
+
+
+<Title> RUSC Tutor Form </title>
+<link rel="icon" type="image/x-icon" href="../assets/icon.ico">
+
+
+
+</head>
+<body>
+
+<div class="grid-container-header">
+	
+	<div>
+		<img class="imgRout" src="../assets/router.png">
+	</div>
+
+	<div class="title">
+		
+		<h1>RUSC Tutor Form</h1>
+		
+		<marquee>
+			
+			<img class="packet" src="../assets/packet.jpg">
+			
+		</marquee>
+		
+	</div>
+	
+	
+		<img class="imgRout" src="../assets/router.png">
+		<button id="BackClick" class="backButton">Back</button>
+
+
+
+</div>
+
+<div class="grid-container-content">
+
+		<div>
+			
+			 <form id="tutorForm">
+				<label for="StudentName">Full Name:</label><br>
+				<input type="text" id="name"><br>
+				<Label for="StudentID">Student ID:</label><br>
+				<input type="text" id="id"><br>
+				<label for="Course">Course:</label><br>
+				<input type="text" id="course"><br>
+			
+				<label for="TimeSlot">Time:</label><br>
+				<select id="TimeSlot" name="TimeSlot">
+					<option value="ti4"> 8:00am - 9:15am</option>
+					<option value="ti1">11:00am - 12:00pm</option>
+					<option value="ti2">1:30pm - 2:30pm</option>
+					<option value="ti3">4:45pm - 5:30pm</option>
+				</select>
+				
+				<label for="tutor">Tutor:</label>
+				<select id="tutor" name="tutor">
+					<option value="t1">Mike Smith</option>
+					<option value="t2">Rebecca Joel</option>
+					<option value="t3">John Martin</option>
+				</select>
+				<br>
+				
+				
+				<input type="radio" id="inPerson" name="meeting" value="In Person" checked>
+				<label for="inPerson">In Person</label><br>
+				<input type="radio" id="virtual" name="meeting" value="Virtual">
+				<label for="virtual">Virtual</label><br>
+				
+				  <button type="submit" >Submit form</button>
+				
+				
+			</form>
+			
+		</div>
+
+
+</div>
+<hr>
+<div class="grid-container-footer">
+
+<h5>2023 All Rights Reserved</h5>
+<h5>Last Updated 4/25/2023</h5>
+
+</div>
+
+<script src="../js/tutorform.js"></script>
+
+</body>
+</html>
